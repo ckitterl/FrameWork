@@ -1,0 +1,112 @@
+10
+
+dir
+0
+http://192.168.9.129/svn/application/72_appframework/android/LayoutTemplate/res
+http://192.168.9.129/svn/application
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6631b4fc-94fb-e245-89ef-0394b773b8b3
+
+drawable-hdpi
+dir
+
+
+
+add
+
+drawable-xxhdpi
+dir
+
+
+
+add
+
+menu
+dir
+
+
+
+add
+
+values-v11
+dir
+
+
+
+add
+
+values-v14
+dir
+
+
+
+add
+
+drawable-ldpi
+dir
+
+
+
+add
+
+drawable-mdpi
+dir
+
+
+
+add
+
+drawable-xhdpi
+dir
+
+
+
+add
+
+layout
+dir
+
+
+
+add
+
+values-sw720dp-land
+dir
+
+
+
+add
+
+values
+dir
+
+
+
+add
+
+values-sw600dp
+dir
+
+
+
+add
+

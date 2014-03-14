@@ -1,0 +1,10 @@
+package com.nd.ndFrame.layoutTemplate;
+
+/**
+ * Label 节点
+ * @author wangjg
+ *
+ */
+public class LayoutNodeLabel extends LayoutNode {
+
+}

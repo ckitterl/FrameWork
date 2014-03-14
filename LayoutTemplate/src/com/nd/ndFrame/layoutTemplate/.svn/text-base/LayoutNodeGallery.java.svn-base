@@ -1,0 +1,10 @@
+package com.nd.ndFrame.layoutTemplate;
+
+/**
+ * 显示图片库
+ * @author wangjg
+ *
+ */
+public class LayoutNodeGallery extends LayoutNode {
+
+}

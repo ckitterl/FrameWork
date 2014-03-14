@@ -1,0 +1,11 @@
+package com.nd.ndFrame.layoutTemplate;
+
+/**
+ * LayoutTemplate中显示节点的基类
+ * 
+ * @author wangjg
+ *
+ */
+public class LayoutNode {
+
+}

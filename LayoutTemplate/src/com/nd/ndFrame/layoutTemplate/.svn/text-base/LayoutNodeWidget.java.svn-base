@@ -1,0 +1,10 @@
+package com.nd.ndFrame.layoutTemplate;
+
+/**
+ * 显示一个Widget
+ * @author wangjg
+ *
+ */
+public class LayoutNodeWidget extends LayoutNode {
+
+}

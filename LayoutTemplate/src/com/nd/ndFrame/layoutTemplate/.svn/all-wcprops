@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/application/!svn/ver/391949/72_appframework/android/ndFrame/src/com/nd/ndFrame/layoutTemplate
+END
+LayoutNodeWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/application/!svn/ver/391949/72_appframework/android/ndFrame/src/com/nd/ndFrame/layoutTemplate/LayoutNodeWidget.java
+END
+LayoutNodeHtml.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/application/!svn/ver/391949/72_appframework/android/ndFrame/src/com/nd/ndFrame/layoutTemplate/LayoutNodeHtml.java
+END
+LayoutTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/application/!svn/ver/391949/72_appframework/android/ndFrame/src/com/nd/ndFrame/layoutTemplate/LayoutTemplate.java
+END
+IDLLayoutTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/application/!svn/ver/391949/72_appframework/android/ndFrame/src/com/nd/ndFrame/layoutTemplate/IDLLayoutTemplate.java
+END
+LayoutNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/application/!svn/ver/391949/72_appframework/android/ndFrame/src/com/nd/ndFrame/layoutTemplate/LayoutNode.java
+END
+LayoutNodeGallery.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/application/!svn/ver/391949/72_appframework/android/ndFrame/src/com/nd/ndFrame/layoutTemplate/LayoutNodeGallery.java
+END
+LayoutNodeLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/application/!svn/ver/391949/72_appframework/android/ndFrame/src/com/nd/ndFrame/layoutTemplate/LayoutNodeLabel.java
+END
+LayoutNodeSwitch.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/application/!svn/ver/391949/72_appframework/android/ndFrame/src/com/nd/ndFrame/layoutTemplate/LayoutNodeSwitch.java
+END

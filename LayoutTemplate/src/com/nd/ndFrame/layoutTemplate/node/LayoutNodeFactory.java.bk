@@ -1,0 +1,44 @@
+package com.nd.ndFrame.layoutTemplate.node;
+
+import org.w3c.dom.Element;
+
+import android.content.Context;
+import android.widget.LinearLayout;
+
+import com.nd.utilities.css.CssParser;
+import com.nd.utilities.execption.FrameUnsupportTagTypeException;
+
+public class LayoutNodeFactory {
+	private LayoutNode mLayoutNode;
+	private static LayoutNodeFactory mInstance;
+	private LayoutNodeFactory() {
+	}
+	
+	public static LayoutNode getLayoutNode(Context context, Element e, CssParser cssParser) throws FrameUnsupportTagTypeException {
+		if (context == null || e == null || cssParser == null) {
+			throw new NullPointerException("param null");
+		}
+		
+		LayoutNode layoutNode;
+		
+		String tagName = e.getTagName();
+		if (tagName.equalsIgnoreCase("table")) {
+			layoutNode = new LayoutNodeLinearLayout(context, e, cssParser, LinearLayout.VERTICAL);
+		} else if (tagName.equalsIgnoreCase("tr")) {
+			layoutNode = new LayoutNodeLinearLayout(context, e, cssParser, LinearLayout.HORIZONTAL);
+		} else if (tagName.equalsIgnoreCase("td")) {
+			layoutNode = new LayoutNodeLinearLayout(context, e, cssParser, LinearLayout.VERTICAL);
+		} else if (tagName.equalsIgnoreCase("label")) {
+			layoutNode = new LayoutNodeLabel(context, e, cssParser);
+		} else if (tagName.equalsIgnoreCase("image")) {
+			layoutNode = new LayoutNodeImage(context, e, cssParser);
+		} else if (tagName.equalsIgnoreCase("html")) {
+			layoutNode = new LayoutNodeHtml(context, e, cssParser);
+		} else {
+			throw new FrameUnsupportTagTypeException(tagName);
+		}
+		
+		return layoutNode;
+	}
+
+}

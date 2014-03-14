@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/application/!svn/ver/391807/72_appframework/android/ndUtilities/src/com/nd/utilities/ui/view
+END
+NDScrollView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/application/!svn/ver/391807/72_appframework/android/ndUtilities/src/com/nd/utilities/ui/view/NDScrollView.java
+END
+NDTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/application/!svn/ver/391807/72_appframework/android/ndUtilities/src/com/nd/utilities/ui/view/NDTextView.java
+END
+NDHorizontalScrollView.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/application/!svn/ver/391807/72_appframework/android/ndUtilities/src/com/nd/utilities/ui/view/NDHorizontalScrollView.java
+END
+OnScrollEndListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/application/!svn/ver/391807/72_appframework/android/ndUtilities/src/com/nd/utilities/ui/view/OnScrollEndListener.java
+END
+NDWebView.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/application/!svn/ver/391807/72_appframework/android/ndUtilities/src/com/nd/utilities/ui/view/NDWebView.java
+END

@@ -1,0 +1,64 @@
+10
+
+dir
+392344
+http://192.168.9.129/svn/application/72_appframework/android/ndUtilities/src/com/nd/utilities
+http://192.168.9.129/svn/application
+
+
+
+2014-03-11T07:00:24.316750Z
+391955
+wangjg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6631b4fc-94fb-e245-89ef-0394b773b8b3
+
+css
+dir
+
+network
+dir
+
+ui
+dir
+
+device
+dir
+
+logger
+dir
+
+media
+dir
+
+crypt
+dir
+
+language
+dir
+
+database
+dir
+
+environment
+dir
+
+io
+dir
+
+thread
+dir
+

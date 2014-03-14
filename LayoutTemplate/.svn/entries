@@ -1,0 +1,98 @@
+10
+
+dir
+0
+http://192.168.9.129/svn/application/72_appframework/android/LayoutTemplate
+http://192.168.9.129/svn/application
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6631b4fc-94fb-e245-89ef-0394b773b8b3
+
+gen
+dir
+
+
+
+add
+
+libs
+dir
+
+
+
+add
+
+res
+dir
+
+
+
+add
+
+.settings
+dir
+
+
+
+add
+
+.classpath
+file
+
+
+
+add
+
+project.properties
+file
+
+
+
+add
+
+assets
+dir
+
+
+
+add
+
+.project
+file
+
+
+
+add
+
+proguard-project.txt
+file
+
+
+
+add
+
+bin
+dir
+
+
+
+add
+

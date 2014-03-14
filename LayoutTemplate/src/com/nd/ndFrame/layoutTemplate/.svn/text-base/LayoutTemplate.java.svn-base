@@ -1,0 +1,50 @@
+package com.nd.ndFrame.layoutTemplate;
+
+import java.io.File;
+
+import android.content.Context;
+
+/**
+ * LayoutTemplate解析生成器
+ * @author wangjg
+ *
+ */
+public class LayoutTemplate {
+
+	private boolean mScrollable=true;
+	private Context mContext;
+	private IDLLayoutTemplate mDataLayer;
+	public LayoutTemplate(Context context, IDLLayoutTemplate dataLayer) {
+		mDataLayer = mDataLayer;
+		mContext = context;
+	}
+
+	public LayoutTemplate(Context context) {
+		mContext = context;
+	}
+	public void setScrollable(boolean flag){
+		mScrollable=flag;
+	}
+	/**
+	 * 载入 Layout字串
+	 * @param content
+	 */
+	public void loadLayout(String content){
+		
+	}
+	/**
+	 * 载入XML布局文件
+	 * @param file
+	 */
+	public void loadLayout(File file){
+		
+	}
+	/**
+	 * 执行布局，生成View
+	 */
+	public void generateLayout(){
+		/**
+		 * todo : 遍历XML节点，生成View
+		 */
+	}
+}

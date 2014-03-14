@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/application/!svn/ver/391427/72_appframework/android/ndUtilities/src/com/nd/utilities/logger
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/application/!svn/ver/391427/72_appframework/android/ndUtilities/src/com/nd/utilities/logger/Logger.java
+END
+LoggerStrategyDefault.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/application/!svn/ver/391427/72_appframework/android/ndUtilities/src/com/nd/utilities/logger/LoggerStrategyDefault.java
+END
+ILoggerStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/application/!svn/ver/391427/72_appframework/android/ndUtilities/src/com/nd/utilities/logger/ILoggerStrategy.java
+END

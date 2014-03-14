@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/application/!svn/ver/391783/72_appframework/android/ndUtilities/src/com/nd/utilities/language/xml
+END
+DomDocumentSerializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/application/!svn/ver/392453/72_appframework/android/ndUtilities/src/com/nd/utilities/language/xml/DomDocumentSerializer.java
+END
+ControlCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/application/!svn/ver/391783/72_appframework/android/ndUtilities/src/com/nd/utilities/language/xml/ControlCode.java
+END
+DomDocumentUnserializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/application/!svn/ver/391783/72_appframework/android/ndUtilities/src/com/nd/utilities/language/xml/DomDocumentUnserializer.java
+END
+XmlWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/application/!svn/ver/392453/72_appframework/android/ndUtilities/src/com/nd/utilities/language/xml/XmlWrapper.java
+END

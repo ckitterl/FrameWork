@@ -1,0 +1,46 @@
+<DetailPage class="page">
+<layoutStyle><![CDATA[
+.page {background-color:#CCCCCC;}
+.section {margin-top: 10px; margin-right:10px; margin-left:10px;}
+.member-basic {padding-left: 10px;padding-top: 10px;padding-bottom: 10px;padding-right: 10px;}
+.image {border-radius: 5px; padding-left: 10px;padding-top: 10px;padding-bottom: 10px;padding-right: 10px;background-color:#FFFFFF;}
+.id {font-size: 20px;padding-left: 10px;padding-top: 10px;padding-bottom: 10px;padding-right: 10px;}
+.name {font-size: 14px;padding-left: 10px;padding-top: 10px;padding-bottom: 10px;padding-right: 10px;}
+.function-list {border-radius: 10px;background-color: #F3F3F3; margin-top: 10px; margin-right:10px; margin-left:10px;}
+.function-image {padding-left: 10px;padding-top: 10px;padding-right: 10px;padding-bottom: 10px;}
+.function-name {font-size: 20px;padding-left: 10px;padding-top: 10px;padding-bottom: 10px;padding-right: 10px;}
+]]></layoutStyle>
+<LinearLayout orientation="v" height="fill">
+    <section class="section">
+        <table cellspacing="0" class="member-basic">
+            <tr>
+                <td width="70" height="70" type="image" class="image" Reuse="1" src="${Path:member.photo}"></td>
+                <td type="table">
+                    <table cellspacing="0">
+                        <tr>
+                            <td align="left" height="30" type="text" class="id" width="220" Reuse="1" line="0">${Value:member.userid}</td>
+                        </tr>
+                        <tr>
+                            <td align="left" height="20" type="text" class="name" width="220" Reuse="1" line="0">${Value:member.name}</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section class="function-list">
+        <table cellspacing="1">
+            <tr>
+		<td type="foreach" listCategory="function" cols="1" onClick="${Action:function.onClick}" >
+		<table>
+			<tr height="25">
+				<td width="20%" type="image" class="function-image" src="${Path:function.image}"/>
+				<td width="80%" type="text" class="function-name">${Value:function.name}</td>
+			</tr>
+		</table>
+		</td>
+            </tr>
+        </table>
+    </section>
+</LinearLayout>
+</DetailPage>

@@ -1,0 +1,49 @@
+10
+
+dir
+0
+http://192.168.9.129/svn/application/72_appframework/android/LayoutTemplate/res/values
+http://192.168.9.129/svn/application
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6631b4fc-94fb-e245-89ef-0394b773b8b3
+
+strings.xml
+file
+
+
+
+add
+
+dimens.xml
+file
+
+
+
+add
+
+styles.xml
+file
+
+
+
+add
+
